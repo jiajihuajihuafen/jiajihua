@@ -13411,11 +13411,11 @@ F=true
 
 au:Dialog{
 
-Title="Close Window",
-Content="Do you want to close this window? You will not be able to open it again.",
+Title="关闭窗口",
+Content="你真的要关吗,你只能重新注入才能打开了",
 Buttons={
 {
-Title="Cancel",
+Title="不关",
 
 Callback=function()
 F=false
@@ -13423,7 +13423,7 @@ end,
 Variant="Secondary",
 },
 {
-Title="Close Window",
+Title="关闭窗口",
 
 Callback=function()
 F=false
